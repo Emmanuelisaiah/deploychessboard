@@ -1,0 +1,40 @@
+body {
+    background: grey;
+}
+
+.chess-board {
+    border-spacing: 0;
+    border: 2px;
+    margin-top: 2px;
+    text-align: center;
+    width: 80%;
+}
+
+th {
+    padding-left: 2em;
+    text-align: center;
+    width: 10%;
+}
+
+td {
+    border: 2px solid;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+.white {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    font-size: 50px;
+    text-align: center;
+}
